@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/head.css">
+</head>
+<style>
+    .img1 {
+        width: 1200px;
+        height: 500px;
+        background-image: url(image/bg.png);
+        background-size:100% 100%;
+        
+    }
+
+    .data {
+        padding-top: 10px;
+        width: 1200px;
+        height: 580px;
+        background-color: #fff;
+    }
+
+    .h2{
+        padding: 20px;
+    }
+
+    .left-box {
+        float: left;
+        width: 500px;
+        height: 400px;
+        margin: 20px 0px 0px 80px;
+        /*左边盒子的背景图片 暂时无*/
+        /* background-image: url(img/index-a2.jpg); */
+        overflow: hidden;
+        background-size: 100% 100%;
+        box-shadow: 10px 10px 5px #888888;
+
+    }
+
+
+
+    .left-box li {
+        list-style-type: none;
+        width: 230px;
+        line-height: 80px;
+        border-bottom: 2px #ccc dashed;
+
+    }
+
+    .introduce {
+        width: 250px;
+        float: right;
+        padding-top: 10px;
+        margin-right: 80px;
+    }
+
+    .right-box {
+        width: 400px;
+        height: 400px;
+        margin-right: 80px;
+        margin-top: 20px;
+        float: right;
+        overflow: hidden;
+    }
+
+    .right-box img {
+        height: 100%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="top_head">
+           <h2>我的个人简介</h2>
+        </div>
+        <div class="top_nav">
+            <ul>
+                <li><a href="index.html">个人主页</a></li>
+                <li><a href="./html/study.html">学习经历</a></li>
+                <li><a href="./html/technology.html">个人技术栈</a></li>
+                <li><a href="./html/future.html">对未来的渴望</a></li>
+            </ul>
+        </div>
+        <!-- <div id = top_nav1></div> -->
+        <!-- 主图片-->
+        <div class="img1"></div>
+
+        <!-- 个人经历 -->
+        <div class="data">
+            <h2 class="h2">个人主页</h2>
+            <div class="left-box">
+                <div class="introduce">
+                    <ul>
+                        <li>姓名:唐小明</li>
+                        <li>籍贯:皇族</li>
+                        <li>所在星球:篮球</li>
+                        <li>专业:哈哈</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="right-box">
+                <img src="image/清新百合.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

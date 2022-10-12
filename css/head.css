@@ -1,0 +1,69 @@
+body{
+    background-color: #ebe8e1;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+
+}
+
+
+
+/*头部样式*/
+
+.top_head{
+    background-color: #333333;
+    height: 100px;
+    color: white;
+    line-height: 100px;
+    padding-left: 110px;
+}
+
+.top_nav{
+   width: 1200px;
+   margin: 0px auto;
+   height: 150px;
+   position: absolute;
+   z-index: 999;
+}
+
+.top_nav ul {
+    list-style:  none;
+}
+
+.top_nav>ul>li{
+    padding: 0 112px;
+    background-color: #232323;
+    line-height: 60px;
+    float: left;
+    margin: 0px;
+}
+
+.top_nav>ul>li:hover{
+    color: #fff;
+    border-bottom: 5px solid #ff8726;
+}
+
+.top_nav a{
+    text-decoration: none;
+   
+    color: #fff;
+}
+
+.top_nav a:hover{
+    color: #ff8726;
+}
+
+/* .top_nav1{
+    height: 60px;
+    background-color: #232323;
+    默认定位 
+    position: static;
+} */
